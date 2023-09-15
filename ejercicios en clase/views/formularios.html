@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario sobre algo </title>
+</head>
+<body>
+    <form name = "Datos_Basicos" action= "../ElPrincipito.html" method="">
+    <h1><img src="../assets/img/user-interface.png" width="50"> Datos Básicos </h1>
+    <label for="perfil"> Describa su perfil </label><br>
+    <textarea id="perfil" rows="8" cols=40" name="perfil"> Describase en 200 letras </textarea><br>
+    <label for ="tipoI">Tipo de Identificación </label>
+    <select id="tipoI" name="tipoI"> 
+        <option value="0" selected=""> Seleccionar un Tipo de Documento</option>
+        <option value="1" > Número Único de Identificación</option>
+        <option value="2" > Tarjeta de Identidad</option>
+        <option value="3" > Cédula de Ciudadania</option>
+        <option value="4" > Cédula de extranjería </option>
+    </select>
+    <br>
+    <label for ="numI" >Número de identificación </label>
+    <input id="numI"type="number"> <br>
+    <label for ="lastn">Apellidos </label>
+    <input id="lastn" type="text" name="lastn">
+    <label for ="nom"> Nombres </label>
+    <input id="nom"type="text" name="nom"> <br>
+    <label for ="gen">Genéro </label>
+    <input id="genM" type="radio" name="gen">Masculino
+    <input id="genF" type="radio" name="gen" checked>Femenino
+    <input id="genO" type="radio" name="gen" >Otro <br>
+    <label for ="estado"> Estado civil </label>
+    <input id="estado" type="radio" name="estado">Casado
+    <input id="estado" type="radio" name="estado"> Unión libre
+    <input id="estado" type="radio" name="estado">Soltero 
+    <input id="estado" type="radio" name="estado">Viudo(a)
+    <br>
+    <label for ="num_tel"> Número telefonico </label>
+    <input id="num_tel" type="number"> <br>
+    <label for ="dir"> Dirección de residencia </label>
+    <input id="dir" type="text" name="dir"> <br>
+    <label for ="correo">Correo electrónico </label>
+    <input id="correo" type="email"> <br>
+    <label for ="contraseña"> Contraseña </label>
+    <input id="contraseña" type="password" name="contraseña"> <br>
+   
+
+
+
+    </form>
+</body>
+</html>
