@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+body {
+    background-color:rgb(240, 239, 239);
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+h1 {
+    color: rgb(128, 191, 255);
+    font-family: 'Skranji', cursive;
+    font-weight:600;
+    font-size: 25pt;
+    text-align: center;
+
+}
+h2 {
+    font-family: 'Mooli';
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: center;
+}
+h3{
+    color: rgb(128, 191, 255);
+    font-family: 'Skranji', cursive;
+    font-weight:600;
+    font-size: 15pt;
+    text-align: right;
+}
+p {
+    text-align: justify;
+    font-family: Mooli;
+    line-height: 3;
+}
+h5{
+    text-align: right;
+}
+img{
+    align-content: center;
+}
+ul{
+    color: rgb(128, 191, 255);
+    font-family: 'Skranji', cursive;
+    font-weight:600;
+    font-size: 25pt;
+    text-align: center;
+    list-style-image:url("../img/girasol.png");
+    list-style-position:inside
+
+}
+li{
+    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    text-align: justify;
+    font-family: Mooli;
+    line-height: 3;
+}
+table{
+    border: 3px dashed rgb(247, 128, 255);
+    border-collapse: collapse;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    
+}
+td{
+    border: 3px dashed rgb(247, 128, 255);
+    border-collapse: collapse;
+}
+th{
+    border: 3px dashed rgb(247, 128, 255);
+    border-collapse: collapse;
+    background-color: rgb(58,153,141);
+}
