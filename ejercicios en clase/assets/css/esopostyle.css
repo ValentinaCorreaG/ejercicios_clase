@@ -1,0 +1,17 @@
+body{
+    background-color: #15a085;
+    text-align: justify;
+    color: white;
+    font-size: 15pt;
+    border: 5px dashed yellow;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Skranji', cursive;
+    font-weight:600;
+    font-size: 25pt;
+    text-align: left;
+
+}
