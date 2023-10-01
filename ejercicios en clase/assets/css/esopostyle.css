@@ -1,17 +1,40 @@
-body{
-    background-color: #15a085;
-    text-align: justify;
-    color: white;
-    font-size: 15pt;
-    border: 5px dashed yellow;
-    border-collapse: collapse;
+.Homero{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-style: italic;
+    text-decoration: underline;
+    color: yellow;
 }
 
+.esopo{
+    width: 900px;
+    background-color: #15a085;
+    margin: 50px auto;
+    border: 4px dashed yellow;
+    font-size: 15pt;
+    padding:30px 30px 30px 30px;
+    color: white;
+
+}
+.esopo img{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
 h1 {
     color: rgb(255, 255, 255);
     font-family: 'Skranji', cursive;
     font-weight:600;
     font-size: 25pt;
     text-align: left;
-
+    
 }
+.esopo p{
+    text-align: justify;
+}
+a{
+    color: yellow ;
+}
+a:link {
+    color: #265301;
+  }
+  
